@@ -39,7 +39,7 @@ def table_2(engine):
 def input_data(engine ,students ,students_2):
    
    
-   with open('C:\Kodilla\learning-git-10\cleanmeasure.csv', 'r') as read_file:
+   with open('cleanmeasure.csv', 'r') as read_file:
 # first table
       csv_1= csv.reader(read_file , delimiter=',')
       b=0
