@@ -72,6 +72,10 @@ def result():
    rt = engine.execute("SELECT * FROM address").fetchall()
    for r in rt:
       print(r)
+   
+   t = engine.execute("SELECT * FROM address_2").fetchall()
+   for r in t:
+      print(r)
 
 if __name__ == "__main__": 
    engine  = create_enginee()
